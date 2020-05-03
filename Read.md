@@ -1,0 +1,4 @@
+1. Script name: "connect your spin up ec2 instance with ecs cluster.sh"
+
+When making AMI's on which ecs agent is being installed and run by you. You can add this script in user data so that, whenever
+ecs agents starts your ec2 instance can join with ecs cluster which you specified by name.

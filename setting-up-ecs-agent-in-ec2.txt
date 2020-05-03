@@ -1,0 +1,17 @@
+EC2 instance Setup:
+
+1. Launch EC2 instance (do add script into user data mentioned in repo)
+2. SSH into instance
+3. Install docker
+   i)  sudo yum update -y
+   ii) sudo yum install docker -y
+   iii)sudo service docker start
+   iv) sudo usermod -a -G docker $USER
+4. Log out and log back as ec2 instance
+5. Install ECS Agent
+    i)  sudo yum install ecs-init
+    ii) sudo start ecs
+    iii)tail -f /var/log/ecs/ecs*
+    
+    
+

@@ -2,3 +2,7 @@
 
 When making AMI's on which ecs agent is being installed and run by you. You can add this script in user data so that whenever
 ecs agents starts, "Your ec2 instance can join with specified ecs cluster"
+
+
+2. Setting-up-ecs-agent-in-ec2.txt
+Contains all the steps to bake AMI with ECS agent
